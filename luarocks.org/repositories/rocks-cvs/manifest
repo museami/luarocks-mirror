@@ -1,6 +1,27 @@
 commands = {}
 modules = {}
 repository = {
+   bcrypt = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   bit32 = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   bitfield = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    cgilua = {
       ['5.1.2rc1-1'] = {
          {
@@ -18,6 +39,18 @@ repository = {
          }
       },
       ['cvs-4'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['cvs-5'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   compat52 = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
@@ -54,6 +87,34 @@ repository = {
          }
       }
    },
+   cwtest = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   fakeredis = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   haricot = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['http-digest'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    json2lua = {
       ['scm-1'] = {
          {
@@ -66,8 +127,22 @@ repository = {
          }
       }
    },
+   kdtree = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    lanes = {
       ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ldoc = {
+      ['scm-2'] = {
          {
             arch = "rockspec"
          }
@@ -162,6 +237,20 @@ repository = {
          }
       }
    },
+   ['lua-sophia'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua-templet'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-websockets'] = {
       ['scm-1'] = {
          {
@@ -176,6 +265,13 @@ repository = {
          }
       }
    },
+   ['lua-zip'] = {
+      ['git-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['lua-zmq'] = {
       ['scm-1'] = {
          {
@@ -184,6 +280,20 @@ repository = {
       }
    },
    ['lua-zmq-threads'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['lua5.1.js-file-packer'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lua_json = {
       ['scm-1'] = {
          {
             arch = "rockspec"
@@ -209,6 +319,25 @@ repository = {
          }
       }
    },
+   luacov = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luafcgi = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['scm-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luafilesystem = {
       ['1.4.1rc1-1'] = {
          {
@@ -221,6 +350,11 @@ repository = {
          }
       },
       ['cvs-2'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['cvs-3'] = {
          {
             arch = "rockspec"
          }
@@ -269,8 +403,69 @@ repository = {
          }
       }
    },
+   luapgsql = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['scm-2'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    luaprofiler = {
       ['cvs-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luaproxy = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luarocks = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luars232 = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luasec = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luasocket = {
+      ['3.0rc1-1'] = {
+         {
+            arch = "rockspec"
+         }, {
+            arch = "src"
+         }
+      },
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   luaspell = {
+      ['git-1'] = {
          {
             arch = "rockspec"
          }
@@ -347,6 +542,27 @@ repository = {
          }
       }
    },
+   lust = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lutrace = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   lzlib = {
+      ['git-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    md5 = {
       ['cvs-1'] = {
          {
@@ -361,11 +577,16 @@ repository = {
          }
       }
    },
+   ['multipart-post'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    oauth = {
       ['0.0.1-1'] = {
          {
-            arch = "src"
-         }, {
             arch = "rockspec"
          }
       }
@@ -387,6 +608,18 @@ repository = {
          }
       },
       ['cvs-3'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   penlight = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['scm-2'] = {
          {
             arch = "rockspec"
          }
@@ -421,6 +654,13 @@ repository = {
          }
       }
    },
+   ['rpi-gpio'] = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    schema = {
       ['scm-1'] = {
          {
@@ -437,6 +677,13 @@ repository = {
    },
    sidereal = {
       ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   stdlib = {
+      ['git-1'] = {
          {
             arch = "rockspec"
          }
