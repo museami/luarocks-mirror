@@ -731,15 +731,6 @@ repository = {
          }
       }
    },
-   csv = {
-      ['1-1'] = {
-         {
-            arch = "rockspec"
-         }, {
-            arch = "src"
-         }
-      }
-   },
    cue = {
       ['1.1.0-1'] = {
          {
